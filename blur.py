@@ -17,8 +17,8 @@ while running:
     pygame.time.Clock().tick(60)
     screen.fill((255,255,255))
     
-    blured = blurSurface(screen, 5)
-    screen.blit(blured, (0,0))
+    blurrySurface = blurSurface(screen, 5)
+    screen.blit(blurrySurface, (0,0))
     
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
